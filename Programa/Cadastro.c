@@ -1112,6 +1112,7 @@ submenuFun:
     printf("\n\n\n\n\n\t\t__________________FUNCIONARIOS__________________"
     "\n\n\t\t\t[1]-CADASTRAR FUNCIONARIO"
     "\n\t\t\t[2]-BUSCAR FUNCIONARIOS"
+    "\n\t\t\t[3]-EXCLUIR FUNCIONARIOS"
     "\n\t\t\t[0]-VOLTAR"
     "\n\t\t________________________________________________"
     "\n\n\t\t\tDIGITE UMA OPÇÃO: ");
@@ -1126,7 +1127,9 @@ submenuFun:
         case 2: if (buscaFuncionario() == 0){
                 goto submenuFun; };
                 break;
-
+        case 3: if (excluir() == 0){
+                goto submenuFun; };
+                break;
         default: printf("\n                            INVALIDO");
                 goto submenuFun; break; }
 //SUBMENU SHOWS __________________________________________________________________________________
