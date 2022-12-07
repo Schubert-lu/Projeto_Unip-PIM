@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/Status-concluded-green">
+<img src="https://img.shields.io/badge/Status-Concluded-green">
 <h1> Projeto_Unip-PIM</h1>
 Criar sistema que gerencia todas as áreas de uma Startup de Eventos.
 
